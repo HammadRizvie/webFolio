@@ -1,13 +1,590 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+#folioLogo {
+  width: 35px;
+  height: 40px;
+}
+.navLogos {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+#nameText {
+  font-size: 25px;
+  font-weight: 500;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navText:hover {
+  color: black;
+  font-weight: 500;
 }
+.navText {
+  font-size: 18px;
+  font-weight: 400;
+}
+#designImage {
+  width:100%;
+  height: 150px;
+}
+
+
+/***************************************************************NaveBar*********************************************************************/
+#introDiv{
+  text-align: center;
+}
+
+#hello {
+  font-size: 40px;
+  font-family:  Arial, sans-serif;
+}
+#name{
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+}
+#cartoon {
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+#cartoon:hover {
+  transform: scale(1.1);
+}
+
+#connect {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+}
+#containerIntro{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.iconsSpacing{
+ margin-left: 13px;
+ margin-right: 13px;
+}
+.firstIconSpacing{
+  margin-right: 13px;
+  
+ }
+ .lastIconSpacing{
+  margin-left: 13px;
+  
+ }
+.linksImages {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  transition: 0.1s;
+ 
+}
+.linksImages:hover {
+  transform: scale(1.2);
+ 
+}
+#cv {
+  height: 80px;
+}
+#download{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 20px;
+ color: rgb(24, 149, 221);
+ border: 1px solid rgb(24, 149, 221);
+ transition: 0.2s;
+ 
+}
+#download:hover {
+  transform: scale(1.05);
+  color: white;
+}
+#downloadImage{
+  height: 20px;
+ }
+ @media only screen and (max-width:800px){
+  .firstIconSpacing{
+    margin-right: 13px;
+    margin-left: 13px;
+   }
+   .lastIconSpacing{
+    margin-right: 13px;
+    margin-left: 13px;
+   }
+   .linksImages {
+    width: 45px;
+    height: 45px;
+   
+  }
+  #download{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width:500px){
+  .firstIconSpacing{
+    margin-right: 13px;
+    
+   }
+   .lastIconSpacing{
+    margin-left: 13px;
+    
+   }
+   .linksImages {
+    width: 40px;
+    height: 40px;
+   
+  }
+  #download{
+    font-size: 16px;
+  }
+}
+ 
+ /***************************************************************Intro*********************************************************************/
+
+ #personalInfoMainDiv {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 50px;
+                                                      
+ }
+ #personalInfoDiv {
+   padding: 50px;
+   text-align: center;
+   width: 400px;
+   border-top: 0.1px solid rgb(185, 185, 185);
+   border-bottom: 0.1px solid rgb(185, 185, 185);
+                                                    
+ }
+ #aboutMeDiv{
+   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+ }
+ #profile {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   transition: 0.5s;
+ }
+ #profile:hover {
+  transform: scale(1.1);
+ }
+ #profileContent {
+   margin: 20px;
+   border-bottom: 3px solid black;
+   border-right: 3px solid black;
+   border-top: 1px solid rgb(185, 185, 185);
+   border-left: 1px solid rgb(185, 185, 185);
+   padding: 30px;
+  width: 600px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 2px 2px;
+  transition: 0.5s;
+ }
+ #profileContent:hover {
+  background-color: rgb(236, 234, 234);
+
+ }
+ #educationDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+ }
+
+#educationLogo {
+  width: 70px;
+  height: 70px;
+}
+.card-img-top{
+  height: 200px;
+}
+.card:hover {
+  box-shadow: 2px 2px gray;
+}
+.card-body{
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+.card-body:hover{
+  background-color: rgb(236, 234, 234);
+}
+
+
+#schoolEducationDiv{
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+#CollageEducationDiv{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+padding-top: 10px;
+}
+#UniversityEducationDiv{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+padding-top: 10px; 
+}
+@media only screen and (max-width:800px){
+  #profile {
+    width: 250px;
+    height: 250px;
+  
+  }
+  #profileContent{
+    width: 400px;
+  }
+  #personalInfoDiv{
+width: 400px;
+  }
+
+}
+@media only screen and (max-width:500px){
+  #profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  #profileContent{
+    width: 300px;
+  }
+  #personalInfoDiv{
+    width: 300px;
+      }
+}
+/***************************************************************Info*********************************************************************/
+
+ #skillsMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#skillsDiv {
+  width: 400px;
+  padding-top: 50px;
+padding-bottom: 50px; 
+  border-top: 0.1px solid rgb(185, 185, 185);
+  border-bottom: 0.1px solid rgb(185, 185, 185);
+  text-align: center;
+}
+.script {
+padding-top: 30px;
+padding-bottom: 30px;
+text-align: center;
+  
+}
+
+.progress {
+  width: 500px;
+}
+#bar1 {
+  
+  background-color:rgb(202, 4, 4);
+
+}
+#bar2 {
+
+  background-color:rgb(202, 4, 4);
+}
+#bar3 {
+ 
+  background-color:rgb(202, 4, 4);
+}
+#bar4 {
+ 
+  background-color:rgb(202, 4, 4);
+}
+#shadowOne {
+  margin-left: -300px;
+
+  width: 10px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxOne;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxOne{
+  0%{
+opacity: 0.3;
+width: 0%;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 0.1;
+    width: 60%;
+  }
+}
+#shadowTwo {
+  margin-left: -380px;
+
+  width: 10px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxTwo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxTwo{
+  0%{
+    opacity: 0.3;
+width: 0%;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 0.1;
+    width: 75%;
+  }
+}
+#shadowThree {
+  margin-left: -450px;
+
+  width: 10px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxThree;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxThree{
+  0%{
+    opacity: 0.3;
+width: 0%;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 0.1;
+    width: 90%;
+  }
+}
+#shadowFour {
+  margin-left: -300px;
+
+  width: 10px;
+  background-color: white;
+  opacity: 0.3;
+  animation-name: shadowBoxFour;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes shadowBoxFour{
+  0%{
+    opacity: 0.3;
+width: 0%;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  100%{
+    opacity: 0.1;
+    width: 60%;
+  }
+}
+@media only screen and (max-width:800px){
+  .progress {
+    width: 400px;
+   
+  }
+  #experienceDiv{
+    width: 400px;
+  }
+
+  @keyframes shadowBoxOne{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 75%;
+    }
+  }
+  
+  @keyframes shadowBoxTwo{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 95%;
+    }
+  }
+
+  @keyframes shadowBoxThree{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 113%;
+    }
+  }
+ 
+  @keyframes shadowBoxFour{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 75%;
+    }
+  }
+
+
+
+}
+@media only screen and (max-width:500px){
+  .progress {
+    width: 300px;
+   
+  }
+  #skillsDiv{
+    width: 300px;
+  }
+
+  @keyframes shadowBoxOne{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 100%;
+    }
+  }
+  
+  @keyframes shadowBoxTwo{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 130%;
+    }
+  }
+
+  @keyframes shadowBoxThree{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 150%;
+    }
+  }
+ 
+  @keyframes shadowBoxFour{
+    0%{
+      opacity: 0.3;
+  width: 0%;
+    }
+    50%{
+      opacity: 0.2;
+    }
+    100%{
+      opacity: 0.1;
+      width: 100%;
+    }
+  }
+}
+ /***************************************************************Skills*********************************************************************/
+
+ #experienceMainDiv { 
+   display: flex;
+   flex-direction: column;
+   align-items: center
+   
+ }
+ #experienceDiv {
+  padding: 50px;
+  width: 400px;
+  border-top: 0.1px solid rgb(185, 185, 185);
+  border-bottom: 0.1px solid rgb(185, 185, 185);
+  text-align: center;
+  
+ }
+ #experiences {
+   padding-bottom: 50px;
+   padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+ }
+ @media only screen and (max-width:800px){
+  .progress {
+    width: 400px;
+   
+  }
+  #experienceDiv{
+    width: 400px;
+  }
+ 
+}
+@media only screen and (max-width:500px){
+  .progress {
+    width: 300px;
+   
+  }
+  #experienceDiv{
+    width: 300px;
+  }
+}
+  /***************************************************************Experience*********************************************************************/
+  #footer {
+    padding: 30px;
+    text-align: center;
+    color: gray;
+    font-family:serif;
+ 
+
+  }
+
+ /***************************************************************Footer*********************************************************************/
