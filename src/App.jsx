@@ -4,6 +4,7 @@ import Intro from './components/Intro'
 import Info from './components/Info'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
+import Project from './components/Projects'
 import Footer from './components/Footer'
 
 class App extends React.Component
@@ -17,6 +18,7 @@ class App extends React.Component
                 <Info />
                 <Skills />
                 <Experience />
+                <Project />
                 <Footer />
             </div>
         )

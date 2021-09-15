@@ -17,10 +17,10 @@ class Skills extends React.Component
                     </div>
                   
                     <div className="script">
-                        <h5>Java</h5>
+                        <h5>HTML and Css</h5>
                         <div className="progress" style={{height:"20px"}}>
-                        <div id="bar1"  className="progress-bar  " role="progressbar" aria-valuenow="60" aria-valuemin="0"  aria-valuemax="100" style={{width: '60%'}}></div>
-                        <div id="shadowOne"></div>
+                        <div id="bar3" className="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                        <div id="shadowThree"></div>
                         </div>
                     </div>
                     <div className="script">
@@ -38,10 +38,38 @@ class Skills extends React.Component
                         </div>
                     </div>
                     <div className="script" >
-                        <h5>Python</h5>
+                        <h5>React</h5>
                         <div className="progress" style={{height:"20px"}}>
-                        <div id="bar4" className="progress-bar " role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style={{width: '55%'}}></div>
-                        <div id="shadowFour"></div>
+                        <div id="bar3" className="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                        <div id="shadowThree"></div>
+                        </div>
+                    </div>
+                    <div className="script" >
+                        <h5>React Native</h5>
+                        <div className="progress" style={{height:"20px"}}>
+                        <div id="bar3" className="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                        <div id="shadowThree"></div>
+                        </div>
+                    </div>
+                    <div className="script" >
+                        <h5>Redux</h5>
+                        <div className="progress" style={{height:"20px"}} >
+                        <div id="bar2"  className="progress-bar " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: '75%'}}></div>
+                        <div id="shadowTwo"></div>
+                        </div>
+                    </div>
+                    <div className="script" >
+                        <h5>BootStrap</h5>
+                        <div className="progress" style={{height:"20px"}}>
+                        <div id="bar3" className="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                        <div id="shadowThree"></div>
+                        </div>
+                    </div>
+                    <div className="script" >
+                        <h5>Material Ui</h5>
+                        <div className="progress" style={{height:"20px"}}>
+                        <div id="bar3" className="progress-bar " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: '90%'}}></div>
+                        <div id="shadowThree"></div>
                         </div>
                     </div>
                     
